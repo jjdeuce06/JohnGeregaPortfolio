@@ -1,4 +1,10 @@
-function ProjectCard({ title, description, tech, github}) {
+function ProjectCard({
+  title,
+  description,
+  tech,
+  github,
+  image,
+}) {
   return (
     <div
       className="
@@ -6,7 +12,8 @@ function ProjectCard({ title, description, tech, github}) {
         p-8
         rounded-2xl
         shadow-lg
-        border border-slate-700
+        border
+        border-slate-700
         hover:-translate-y-2
         hover:border-slate-500
         transition
@@ -14,14 +21,32 @@ function ProjectCard({ title, description, tech, github}) {
       "
     >
 
+      {/* Project Image */}
+      {image && (
+        <img
+          src={image}
+          alt={title}
+          className="
+            rounded-xl
+            mb-6
+            w-full
+            h-56
+            object-cover
+          "
+        />
+      )}
+
+      {/* Title */}
       <h3 className="text-3xl font-bold mb-4">
         {title}
       </h3>
 
+      {/* Description */}
       <p className="text-slate-300 leading-7 mb-6">
         {description}
       </p>
 
+      {/* Tech Stack */}
       <div className="flex flex-wrap gap-2">
         {tech.split(" • ").map((item, index) => (
           <span
@@ -40,14 +65,24 @@ function ProjectCard({ title, description, tech, github}) {
         ))}
       </div>
 
-      <a
-        href={github}
-        target="_blank"
-        rel="noreferrer"
-        className="inline-block mt-6 text-white font-semibold hover:text-slate-300 transition"
-      >
-        View on GitHub
-      </a>
+      {/* GitHub Link */}
+      {github && (
+        <a
+          href={github}
+          target="_blank"
+          rel="noreferrer"
+          className="
+            inline-block
+            mt-6
+            text-white
+            font-semibold
+            hover:text-slate-300
+            transition
+          "
+        >
+          View Project →
+        </a>
+      )}
 
     </div>
   )

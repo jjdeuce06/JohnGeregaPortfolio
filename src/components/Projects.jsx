@@ -19,6 +19,7 @@ function Projects() {
             description="A full stack fitness tracking web application with activities, routes, teams, clubs, and leaderboards."
             tech="Python • Flask • SQL Server • Docker • JavaScript"
             github="https://github.com/jjdeuce06/VulcanActivityTracker"
+            image="/images/VulcanActivityTracker.png"
           />
 
 
@@ -33,6 +34,7 @@ function Projects() {
             title="CareSync - CardioLink"
             description="Served as Frontend Lead during a software engineering internship, collaborating within an Agile development team to build user-facing features, support backend services, and resolve database integration issues to ensure reliable platform data flow."
             tech="Python • Flask • SQL • Docker • JavaScript • Git • Azure DevOps"
+            image="/images/CareSync.png"
         />
 
           <ProjectCard
