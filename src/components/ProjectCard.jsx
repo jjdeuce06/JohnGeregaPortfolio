@@ -22,9 +22,23 @@ function ProjectCard({ title, description, tech, github}) {
         {description}
       </p>
 
-      <p className="text-slate-400">
-        {tech}
-      </p>
+      <div className="flex flex-wrap gap-2">
+        {tech.split(" • ").map((item, index) => (
+          <span
+            key={index}
+            className="
+              bg-slate-700
+              text-slate-300
+              text-sm
+              px-3
+              py-1
+              rounded-full
+            "
+          >
+            {item}
+          </span>
+        ))}
+      </div>
 
       <a
         href={github}

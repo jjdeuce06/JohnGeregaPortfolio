@@ -8,8 +8,8 @@ function Navbar() {
           John Gerega
         </h1>
 
-        <div className="flex gap-6 text-slate-300 font-medium">
-
+        <div className="hidden md:flex gap-6 text-slate-300 font-medium">
+          
           <a href="#about" className="hover:text-white transition">
             About
           </a>
