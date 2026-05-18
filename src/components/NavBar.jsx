@@ -1,23 +1,29 @@
 function Navbar() {
   return (
-    <nav className="fixed top-0 w-full bg-slate-950 text-white flex justify-between items-center px-8 py-4 border-b border-slate-800">
-      
-      <h1 className="font-bold text-xl">
-        John Gerega
-      </h1>
+    <nav className="fixed top-0 w-full z-50 backdrop-blur-md bg-slate-950/80 border-b border-slate-800">
 
-      <div className="flex gap-6">
-        <a href="#about" className="hover:text-slate-300">
-          About
-        </a>
+      <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
 
-        <a href="#projects" className="hover:text-slate-300">
-          Projects
-        </a>
+        <h1 className="text-white font-bold text-2xl">
+          John Gerega
+        </h1>
 
-        <a href="#skills" className="hover:text-slate-300">
-          Skills
-        </a>
+        <div className="flex gap-6 text-slate-300 font-medium">
+
+          <a href="#about" className="hover:text-white transition">
+            About
+          </a>
+
+          <a href="#projects" className="hover:text-white transition">
+            Projects
+          </a>
+
+          <a href="#skills" className="hover:text-white transition">
+            Skills
+          </a>
+
+        </div>
+
       </div>
 
     </nav>

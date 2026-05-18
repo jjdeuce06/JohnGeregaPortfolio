@@ -18,6 +18,7 @@ function Projects() {
             title="Vulcan Activity Tracker"
             description="A full stack fitness tracking web application with activities, routes, teams, clubs, and leaderboards."
             tech="Python • Flask • SQL Server • Docker • JavaScript"
+            github="https://github.com/jjdeuce06/VulcanActivityTracker"
           />
 
 
@@ -25,6 +26,7 @@ function Projects() {
             title="Compiler Construction Project"
             description="Built a scanner, parser, and code generator in C for a custom programming language."
             tech="C • Parsing • Code Generation • Compiler Design"
+            github = "https://github.com/jjdeuce06/CompilerConstruction"
           />
 
         <ProjectCard
@@ -37,6 +39,7 @@ function Projects() {
             title="C# OOP Assignment Rewrites"
             description="Rewrote object-oriented programming assignments from C++ into C# to strengthen understanding of the language."
             tech="C# • OOP • File Handling"
+            github="https://github.com/jjdeuce06/OOPCSharp"
           />
 
 
