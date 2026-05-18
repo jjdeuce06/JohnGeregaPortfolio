@@ -82,10 +82,3 @@ Built a scanner, parser, and code generator in C for a custom programming langua
 Rewrote object-oriented programming assignments from C++ into C# to strengthen understanding of the language and object-oriented design principles.
 
 ---
-
-## Installation
-
-Clone the repository:
-
-```bash
-git clone YOUR_REPOSITORY_URL
