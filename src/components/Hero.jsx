@@ -68,7 +68,7 @@ function Hero() {
           </a>
 
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/john-gerega-a2464521a/"
             target="_blank"
             rel="noreferrer"
             className="
@@ -90,12 +90,6 @@ function Hero() {
 
         </div>
 
-      </div>
-
-
-      {/* Scroll Indicator */}
-      <div className="absolute bottom-10 animate-bounce text-slate-400 text-2xl">
-        ↓
       </div>
 
     </section>

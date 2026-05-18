@@ -1,26 +1,41 @@
+import { Link, NavLink } from "react-router-dom"
+
 function Navbar() {
+
+  const navLinkClass = ({ isActive }) =>
+    isActive
+      ? "text-white"
+      : "text-slate-300 hover:text-white transition"
+
   return (
     <nav className="fixed top-0 w-full z-50 backdrop-blur-md bg-slate-950/80 border-b border-slate-800">
 
       <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
 
-        <h1 className="text-white font-bold text-2xl">
+        <Link
+          to="/"
+          className="text-white font-bold text-2xl"
+        >
           John Gerega
-        </h1>
+        </Link>
 
-        <div className="hidden md:flex gap-6 text-slate-300 font-medium">
-          
-          <a href="#about" className="hover:text-white transition">
+        <div className="hidden md:flex gap-6 font-medium">
+
+          <NavLink to="/about" className={navLinkClass}>
             About
-          </a>
+          </NavLink>
 
-          <a href="#projects" className="hover:text-white transition">
+          <NavLink to="/projects" className={navLinkClass}>
             Projects
-          </a>
+          </NavLink>
 
-          <a href="#skills" className="hover:text-white transition">
-            Skills
-          </a>
+          <NavLink to="/resume" className={navLinkClass}>
+            Resume
+          </NavLink>
+
+          <NavLink to="/contact" className={navLinkClass}>
+            Contact
+          </NavLink>
 
         </div>
 
