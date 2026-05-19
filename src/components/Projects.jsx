@@ -18,7 +18,7 @@ function Projects() {
             title="Vulcan Activity Tracker"
             description="A full stack fitness tracking web application with activities, routes, teams, clubs, and leaderboards."
             tech="Python • Flask • SQL Server • Docker • JavaScript"
-            github="https://github.com/jjdeuce06/VulcanActivityTracker"
+            github="/projects/vulcan-activity-tracker"
             image="/images/VulcanActivityTracker.png"
           />
 

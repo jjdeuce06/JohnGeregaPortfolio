@@ -5,6 +5,7 @@ import AboutPage from "./pages/AboutPage"
 import ProjectsPage from "./pages/ProjectsPage"
 import ResumePage from "./pages/ResumePage"
 import ContactPage from "./pages/ContactPage"
+import VulcanTrackerPage from "./pages/projectpages/VulcanTrackerPage"
 
 function App() {
   return (
@@ -17,6 +18,11 @@ function App() {
         <Route path="/about" element={<AboutPage />} />
 
         <Route path="/projects" element={<ProjectsPage />} />
+
+        <Route
+          path="/projects/vulcan-activity-tracker"
+          element={<VulcanTrackerPage />}
+        />
 
         <Route path="/resume" element={<ResumePage />} />
 
