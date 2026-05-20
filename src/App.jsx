@@ -6,6 +6,7 @@ import ProjectsPage from "./pages/ProjectsPage"
 import ResumePage from "./pages/ResumePage"
 import ContactPage from "./pages/ContactPage"
 import VulcanTrackerPage from "./pages/projectpages/VulcanTrackerPage"
+import CompilerConstruction from "./pages/projectpages/CompilerConstruction"
 
 function App() {
   return (
@@ -22,6 +23,11 @@ function App() {
         <Route
           path="/projects/vulcan-activity-tracker"
           element={<VulcanTrackerPage />}
+        />
+
+        <Route
+          path="/projects/compiler-construction"
+          element={<CompilerConstruction />}
         />
 
         <Route path="/resume" element={<ResumePage />} />

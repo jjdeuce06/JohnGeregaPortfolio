@@ -7,6 +7,7 @@ function VulcanTrackerPage() {
 
       <Navbar />
 
+
       {/* Hero Section */}
       <section className="px-8 pt-40 pb-24">
 
@@ -289,6 +290,27 @@ function VulcanTrackerPage() {
         </div>
 
       </section>
+
+      <div className="flex justify-center mt-12">
+
+        <a
+          href="/projects"
+          className="
+            border
+            border-slate-700
+            px-6
+            py-3
+            rounded-2xl
+            text-slate-300
+            hover:bg-slate-800
+            hover:text-white
+            transition
+          "
+        >
+          ← Back to Projects
+        </a>
+
+      </div>
 
       <Footer />
 

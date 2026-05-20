@@ -27,7 +27,8 @@ function Projects() {
             title="Compiler Construction Project"
             description="Built a scanner, parser, and code generator in C for a custom programming language."
             tech="C • Parsing • Code Generation • Compiler Design"
-            github = "https://github.com/jjdeuce06/CompilerConstruction"
+            github = "/projects/compiler-construction"
+            details = "/projects/compiler-construction"
           />
 
         <ProjectCard
