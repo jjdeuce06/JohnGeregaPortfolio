@@ -23,6 +23,8 @@ function CompilerConstruction() {
           </p>
 
           <div className="flex flex-wrap gap-3">
+          
+
             {[
               "C",
               "Compiler Design",
@@ -34,12 +36,44 @@ function CompilerConstruction() {
             ].map((tech, index) => (
               <span
                 key={index}
-                className="bg-slate-800 text-slate-300 px-4 py-2 rounded-full text-sm"
+                className="
+                  bg-slate-800
+                  text-slate-300
+                  px-4
+                  py-2
+                  rounded-full
+                  text-sm
+                "
               >
                 {tech}
               </span>
             ))}
+          
           </div>
+
+          <a
+            href="https://github.com/jjdeuce06/CompilerConstruction"
+            target="_blank"
+            rel="noreferrer"
+            className="
+              inline-block
+              mt-10
+              bg-white
+              text-black
+              px-8
+              py-4
+              rounded-2xl
+              font-semibold
+              hover:scale-105
+              hover:bg-slate-300
+              transition
+              duration-300
+            "
+          >
+            View GitHub Repository
+          </a>
+
+          
         </div>
       </section>
 

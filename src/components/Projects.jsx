@@ -35,6 +35,7 @@ function Projects() {
             title="CareSync - CardioLink"
             description="Served as Frontend Lead during a software engineering internship, collaborating within an Agile development team to build user-facing features, support backend services, and resolve database integration issues to ensure reliable platform data flow."
             tech="Python • Flask • SQL • Docker • JavaScript • Git • Azure DevOps"
+            github = "/projects/care-sync"
             image="/images/CareSync.png"
         />
 
@@ -42,7 +43,7 @@ function Projects() {
             title="C# OOP Assignment Rewrites"
             description="Rewrote object-oriented programming assignments from C++ into C# to strengthen understanding of the language."
             tech="C# • OOP • File Handling"
-            github="https://github.com/jjdeuce06/OOPCSharp"
+            github="projects/CSharp"
           />
 
 

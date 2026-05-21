@@ -69,8 +69,6 @@ function ProjectCard({
       {github && (
         <a
           href={github}
-          target="_blank"
-          rel="noreferrer"
           className="
             inline-block
             mt-6

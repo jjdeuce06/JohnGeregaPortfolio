@@ -7,6 +7,9 @@ import ResumePage from "./pages/ResumePage"
 import ContactPage from "./pages/ContactPage"
 import VulcanTrackerPage from "./pages/projectpages/VulcanTrackerPage"
 import CompilerConstruction from "./pages/projectpages/CompilerConstruction"
+import CareSyncPage from "./pages/projectpages/CareSync"
+import CSharp from "./pages/projectpages/CSharp"
+import { Link } from "react-router-dom"
 
 function App() {
   return (
@@ -28,6 +31,16 @@ function App() {
         <Route
           path="/projects/compiler-construction"
           element={<CompilerConstruction />}
+        />
+
+        <Route
+          path="/projects/care-sync"
+          element={<CareSyncPage />}
+        />
+
+        <Route
+          path="/projects/CSharp"
+          element={<CSharp/>}
         />
 
         <Route path="/resume" element={<ResumePage />} />
