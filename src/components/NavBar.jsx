@@ -29,6 +29,10 @@ function Navbar() {
             Projects
           </NavLink>
 
+          <NavLink to="/github-activity" className={navLinkClass}>
+            Activity
+          </NavLink>
+
           <NavLink to="/resume" className={navLinkClass}>
             Resume
           </NavLink>

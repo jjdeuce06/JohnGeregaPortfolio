@@ -9,6 +9,7 @@ import VulcanTrackerPage from "./pages/projectpages/VulcanTrackerPage"
 import CompilerConstruction from "./pages/projectpages/CompilerConstruction"
 import CareSyncPage from "./pages/projectpages/CareSync"
 import CSharp from "./pages/projectpages/CSharp"
+import GitHubActivityPage from "./pages/GitHubActivityPage"
 import { Link } from "react-router-dom"
 
 function App() {
@@ -42,6 +43,8 @@ function App() {
           path="/projects/CSharp"
           element={<CSharp/>}
         />
+
+        <Route path="/github-activity" element={<GitHubActivityPage />} />
 
         <Route path="/resume" element={<ResumePage />} />
 
